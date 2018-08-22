@@ -1,0 +1,90 @@
+<style type="text/css">
+table{
+    border: 1px;
+    border-radius: 10px;
+}
+th, td {
+    border: 1px;
+    height: 0px;
+}
+a.btn:link, a.btn:visited {
+background-color: #ffe5af;    color: black;    padding: 5px 2px 2px 2px;    text-align: center;    text-decoration: none;    
+display: inline-block;    border-radius: 4px;    box-shadow: 1px 2px #c69f37;    height: 45px;    width: 98%;    margin-top: 2px;    margin-bottom: 3px;
+}
+
+a.btn:hover, a:active {
+    background-color: #ffd37a;
+}
+
+a.evol:link{}
+
+.img-box{
+    width: 100px;
+    height: 100px;
+    padding: 2px 0px 2px 0px;
+    border: 1px;
+}
+
+
+.img-box-obt{
+width: 35px;    height: 35px;    padding: 0px 0px 1px 0px;    border: 1px;
+}
+
+.img-box-move{
+display: block; width: 65px;    height: 65px;    padding: 0px 0px 0px 0px;    border: 1px ; 
+}
+
+.img-box-evol{
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px 5px 10px;
+    border: 1px;
+}
+
+.img-box img{
+    display: block;
+    text-align:center;
+    font-size: 0;
+}
+img {
+    display: block;
+    text-align:center;
+    font-size: 0;
+    padding: 0px;
+}
+
+.typebox{
+    width: 50px;
+    height: 23px;
+    padding: 0px 0px 0px 0px;
+    border: 1px;
+}
+.typebox img{
+    display: block;
+    font-size: 0;
+}
+
+.typebox-top{
+    width: 63px;
+    height: 25px;
+    padding: 0px 0px 1px 0px;
+    border: 1px;
+}
+.typebox-top img{
+    display: block;
+    font-size: 0;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 20;
+    padding: 1px;
+}
+
+hr { background-color:#ffb800 ; height: 2px; border: 0; }
+
+</style>
