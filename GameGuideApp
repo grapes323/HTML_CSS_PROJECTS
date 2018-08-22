@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table{
+    border: 1px;
+    border-radius: 10px;
+}
+th, td {
+    border: 1px;
+    height: 0px;
+}
+a.btn:link, a.btn:visited {
+background-color: #ffe5af;    color: black;    padding: 5px 2px 2px 2px;    text-align: center;    text-decoration: none;    
+display: inline-block;    border-radius: 4px;    box-shadow: 1px 2px #c69f37;    height: 45px;    width: 98%;    margin-top: 2px;    margin-bottom: 3px;
+}
+
+a.btn:hover, a:active {
+    background-color: #ffd37a;
+}
+
+a.evol:link{}
+
+.img-box{
+    width: 100px;
+    height: 100px;
+    padding: 2px 0px 2px 0px;
+    border: 1px;
+}
+
+
+.img-box-obt{
+width: 35px;    height: 35px;    padding: 0px 0px 1px 0px;    border: 1px;
+}
+
+.img-box-move{
+display: block; width: 65px;    height: 65px;    padding: 0px 0px 0px 0px;    border: 1px ; 
+}
+
+.img-box-evol{
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px 5px 10px;
+    border: 1px;
+}
+
+.img-box img{
+    display: block;
+    text-align:center;
+    font-size: 0;
+}
+img {
+    display: block;
+    text-align:center;
+    font-size: 0;
+    padding: 0px;
+}
+
+.typebox{
+    width: 50px;
+    height: 23px;
+    padding: 0px 0px 0px 0px;
+    border: 1px;
+}
+.typebox img{
+    display: block;
+    font-size: 0;
+}
+
+.typebox-top{
+    width: 63px;
+    height: 25px;
+    padding: 0px 0px 1px 0px;
+    border: 1px;
+}
+.typebox-top img{
+    display: block;
+    font-size: 0;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 20;
+    padding: 1px;
+}
+
+hr { background-color:#ffb800 ; height: 2px; border: 0; }
+
+</style>
+</head>
+<body style="background-color:;">
+
+
+<!--Pokemon------------------------------------------------------>
+
+<div style="background-color:#ffd989;color:black;padding: 5px 5px 5px 5px;width:98%;border-radius: 10px 10px 10px 10px; " class="row">
+  <div class="column">
+
+    <table>
+      <tr>
+        <th rowspan="3" width="35%">
+          <div class="img-box">
+            <img src="/docs/pokemonIcon/001.png" alt="001" style="align:left; height:100px; width:100px; padding:0px 0px 0px 0px; border-radius: 10px 10px 10px 10px;" />
+          </div>
+        </th>
+        <th width="25%">
+          <font size="4" margin-top="10px">#001</font>
+        </th>
+        <th width="40%" colspan="2">
+          <font size="4" margin-top="10px">Bulbasaur</font>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <div class="typebox-top">
+             <img alt="grassicon" src="docs/pokemonType/grassicon.png" style="height:25px; width:63px padding: 0px 0px 1px 0px;" align="left"/>
+           </div>
+        </td>
+        <td colspan="2">
+           <div class="typebox-top">
+             <img alt="grassicon" src="docs/pokemonType/grassicon.png" style="height:25px; width:63px padding: 0px 0px 1px 0px;" align="left"/>
+           </div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="center" vertical-align="middle" align="left" width="20%">
+           <font size="3">HP: 125</font>
+        </td>
+        <td valign="center" vertical-align="middle" align="left" width="25%">
+           <font size="3">ATK: 75</font>
+        </td>
+        <td valign="center" vertical-align="middle" align="left" width="15%">
+           <font size="2">Melee</font>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</div>
+
+
+
+<!--End Pokemon------------------------------------------------------>
+
+<!--Evolution------------------------------------------------------>
+
+<div style="background-color:#ffb700;color:white;padding: 5px 5px 5px 5px;width:98%;border-radius: 10px 10px 0px 0px;margin-top: 10px;" class="row">
+  <div class="column">
+    <font size="4" color="white">Evolution</font>
+  </div>
+</div>
+
+
+<div style="background-color:#ffd989;color:black;padding: 5px 5px 5px 5px;width:98%;border-radius: 0px 0px 10px 10px;" class="row">
+  <div class="column">
+    <table>
+      <tr>
+        <td style="width: 25%">
+          <a class="evol" href="https://pokequest.goodbarber.com/pokedex/i/23254494/001-bulbasaur" target="_blank">
+            <div class="img-box-evol">
+              <img alt="004" src="/docs/pokemonIcon/004.png" style="height:60px; width:60px" />
+            </div>
+          </a>
+        </td>
+        <td style="width: 10%">
+          <font size="3" text-align="center">L16</font>
+        </td>
+        <td style="width: 25%">
+          <a class="evol" href="https://pokequest.goodbarber.com/pokedex/i/23254494/001-bulbasaur" target="_blank">
+            <div class="img-box-evol">
+              <img alt="005" src="/docs/pokemonIcon/005.png" style="height:60px; width:60px" />
+            </div>
+          </a>
+        </td>
+        <td style="width: 10%">
+          <font size="3" style="text-align:center;">L32</font>
+        </td>
+        <td style="width: 25%">
+          <a class="evol" href="https://pokequest.goodbarber.com/pokedex/i/23254494/001-bulbasaur" target="_blank">
+            <div class="img-box-evol">
+              <img alt="006" src="/docs/pokemonIcon/006.png" style="height:60px; width:60px" />
+            </div>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+
+<!--End Evolution------------------------------------------------------>
+<!--Obtaining Method------------------------------------------------------>
+
+<div style="background-color:#ffb700;color:white;padding: 5px 5px 5px 5px;width:98%;border-radius: 10px 10px 0px 0px;margin-top: 10px;" class="row">
+  <div class="column">
+    <font size="4" color="white">Obtaining Method</font></a>
+  </div>
+</div>
+
+
+<div style="background-color:#ffd989;color:black;padding: 5px 5px 5px 5px;width:98%;border-radius: 0px 0px 10px 10px;" class="row">
+  <div class="column">
+
+    <a class="btn" href="https://pokemonquestbud.goodbarber.com/articles/i/23162965/recipe01" target="_blank">
+      <table style="width:100%;">
+        <tr style="height:40px">
+          <td style="valign:center; width:15%;">
+            <div class="img-box-obt">
+                <img alt="005" src="/docs/recipes/09.png" style="align:left; height:35px; width:35px; border-radius: 4px 4px 4px 4px;" />
+            </div>
+          </td>
+          <td style="width:85%; valign:center; vertical-align:middle;">
+            <font style="size:3;">02 Red Stew a la Cube</font>
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a class="btn" href="https://pokemonquestbud.goodbarber.com/articles/i/23162965/recipe01" target="_blank">
+      <table style="width:100%;">
+        <tr style="height:40px">
+          <td style="valign:center; width:15%;">
+            <div class="img-box-obt">
+                <img alt="005" src="/docs/recipes/06.png" style="align:left; height:35px; width:35px; border-radius: 4px 4px 4px 4px;" />
+            </div>
+          </td>
+          <td style="width:85%; valign:center; vertical-align:middle;">
+            <font style="size:3;">02 Red Stew a la Cube</font>
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a class="btn" href="https://pokemonquestbud.goodbarber.com/articles/i/23162965/recipe01" target="_blank">
+      <table style="width:100%;">
+        <tr style="height:40px">
+          <td style="valign:center; width:15%;">
+            <div class="img-box-obt">
+                <img alt="005" src="/docs/pokemonIcon/009.png" style="align:left; height:35px; width:35px; border-radius: 4px 4px 4px 4px;" />
+            </div>
+          </td>
+          <td style="width:85%; valign:center; vertical-align:middle;">
+            <font style="size:3;">02 Red Stew a la Cube</font>
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a class="btn" href="https://pokemonquestbud.goodbarber.com/articles/i/23162965/recipe01" target="_blank">
+      <table style="width:100%;">
+        <tr style="height:40px">
+          <td style="valign:center; width:15%;">
+            <div class="img-box-obt">
+                <img alt="005" src="/docs/pokemonIcon/006.png" style="align:left; height:35px; width:35px" />
+            </div>
+          </td>
+          <td style="width:85%; valign:center; vertical-align:middle;">
+            <font style="size:3;">02 Red Stew a la Cube</font>
+          </td>
+        </tr>
+      </table>
+    </a>
+
+  </div>
+</div>
+
+<!--End Obtaining Method------------------------------------------------------>
+
+<!--Moves------------------------------------------------------>
+
+<div style="background-color:#ffb700;color:white;padding: 5px 5px 5px 5px;width:98%;border-radius: 10px 10px 0px 0px;margin-top: 10px;" class="row">
+  <div class="column">
+    <font size="4" color="white">Moves</font>
+  </div>
+</div>
+
+
+<div style="background-color:#ffd989;color:black;padding: 5px 5px 5px 5px;width:98%;border-radius: 0px 0px 10px 10px;" class="row">
+  <div class="column">
+
+    <table>
+      <tr>
+        <th rowspan="3" style="width:25%;">
+          <div class="img-box-move">
+            <img src="/docs/moveIcon/move_acid_armor.png" style="align:left; height:65px; width:65px" />
+          </div>
+        </th>
+        <th colspan="2">
+          <font size="4">Acid Armor</font>
+        </th>
+      </tr>
+      <tr>
+        <td style="height:10px;">
+          <div class="typebox">
+            <img alt="grassicon" src="docs/pokemonType/grassicon.png" style="height:23px; width:50px padding: 0px 0px 0px 0px;" align="left"/>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <font size="2">ATK: 125</font>
+        </td>
+        <td>
+          <font size="2">WAIT: 5</font>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <font size="2">The user spins in place, scattering petals that deal damage to enemies around it.</font>
+        </td>
+      </tr>
+    </table>
+<hr>
+    <table>
+      <tr>
+        <th rowspan="3" style="width:25%;">
+          <div class="img-box-move">
+            <img src="/docs/moveIcon/move_acid_armor.png" style="align:left; height:65px; width:65px" />
+          </div>
+        </th>
+        <th colspan="2">
+          <font size="4">Acid Armor</font>
+        </th>
+      </tr>
+      <tr>
+        <td style="height:20px;">
+          <div class="typebox">
+            <img alt="grassicon" src="docs/pokemonType/grassicon.png" style="height:23px; width:50px padding: 0px 0px 0px 0px;" align="left"/>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr style="height:10px;">
+        <td>
+          <font size="2">ATK: 125</font>
+        </td>
+        <td>
+          <font size="2">WAIT: 5</font>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <font size="2">The user spins in place, scattering petals that deal damage to enemies around it.</font>
+        </td>
+      </tr>
+    </table>
+
+<hr>
+    <table>
+      <tr>
+        <th rowspan="3" style="width:25%;">
+          <div class="img-box-move">
+            <img src="/docs/moveIcon/move_acid_armor.png" style="align:left; height:65px; width:65px" />
+          </div>
+        </th>
+        <th colspan="2">
+          <font size="4">Acid Armor</font>
+        </th>
+      </tr>
+      <tr>
+        <td style="height:20px;">
+          <div class="typebox">
+            <img alt="grassicon" src="docs/pokemonType/grassicon.png" style="height:23px; width:50px padding: 0px 0px 0px 0px;" align="left"/>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <font size="2">ATK: 125</font>
+        </td>
+        <td>
+          <font size="2">WAIT: 5</font>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <font size="2">The user spins in place, scattering petals that deal damage to enemies around it.</font>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</div>
+
+<!--End Moves------------------------------------------------------>
+
+
+
+</body>
+</html>
