@@ -13,9 +13,22 @@ document.addEventListener('DOMContentLoaded', function(){
   })
   .then(function(myJson) {
     console.log(myJson);
-    let pokeListItems;
+    let pokeListItems = 
+    `<tr>
+      <th>Poke Pic</th>
+      <th>Poke Index</th>
+      <th>Pokemon</th>
+      <th>Type 1</th>
+      <th>Type 2</th>
+    </tr>`;
     myJson.forEach(pokemon => {
-      pokeListItems += '<p>' + pokemon.C + '</p>'
+      pokeListItems += `<tr>
+      <td> ${pokemon.C} </td> 
+      <td> ${pokemon.E.slice(1,4)} </td>
+      <td> ${pokemon.C} </td>
+      <td> ${pokemon.K.slice(35,-6)} </td>
+      <td> ${pokemon.L.slice(17,-4)} </td>
+      </tr>` 
     });
     pokemonTableRow.innerHTML = pokeListItems;
     //take pokemonList and dynamically repeat and append data
