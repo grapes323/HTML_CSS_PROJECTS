@@ -1,4 +1,3 @@
-<script>
 function showHideBasic() {
     var x = document.getElementById("basic");
     if (x.style.display === "block") {
@@ -37,5 +36,3 @@ function showHideSpecial() {
         x.style.display = "block";
     }
 }
-
-</script>
